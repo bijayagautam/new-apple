@@ -1,0 +1,35 @@
+.heading{
+    background-color: black;
+    color: aliceblue;
+    padding: 1em;
+    border-color: aliceblue;
+    border: 1em;
+}
+
+.logo{
+    text-align: center;
+}
+
+.iphone11pro{
+    background-image: url("/img/iphone11pro.jpg");
+    padding: 1em;
+    text-align: center;
+    color: aliceblue;
+    height: 45em;
+}
+
+.iphone11{
+    background-image: url("/img/iphone11.jpg");
+    padding: 1em;
+    text-align: center;
+    color: aliceblue;
+    height: 45em;
+
+}
+
+.watch{
+    padding: 1em;
+    text-align: center;
+
+}
+
