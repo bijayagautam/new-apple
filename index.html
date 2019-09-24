@@ -11,16 +11,22 @@
   </head>
   <body>
 
-    <header class="heading">
-      <div>
+    <header class="heading container">
+      <div class="toggle-button">
         <!-- toggle bottom -->
+        <P>x</P>
       </div>
 
       <div class="logo">
         <img src="/img/logo.svg" alt="Aple logo">
       </div>
       
-      <nav>
+      <div class="cart-button">
+        <!-- cart bottom -->
+        <img src="/img/cart.svg" alt="Shopping cart">
+      </div>
+
+      <nav class="menus">
         <input type="search" class="searchbox" placeholder="Search apple.com/ca">
         <ul>
           <li class="borderline navborder"><a href="#">Mac</a></li>
@@ -34,12 +40,16 @@
       </nav>
     </header>
 
-    <main>
+    <main class="container">
       <section class="iphone11pro">
         <div>
           <h1>iPhone 11 Pro</h1>
           <p>Pro cameras. Pro display. Pro performance.</p>
-          <p class="grey-line">From $0 down with trade-in.*</p>
+
+          <article class="grey-line">
+            <p>From $0 down with trade-in.*</p>
+          </article>
+
           <a href="#" class="bodylinks">Learn more ></a>
           <a href="#" class="bodylinks">Pre-Order ></a>
         </div>

@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* img{
+    width: auto;
+    max-width: 100%;
+} */
+
+.container{
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
 h1 {
     display: block;
     font-size: 2em;
-    padding: 0.67em 0 0 0;
+    /* padding: 0.67em 0 0 0; */
+    padding: 1rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -26,7 +37,9 @@ a{
 }
 
 .bodylinks{
+    padding: 0.5em;
     color: rgb(36, 104, 182);
+    font-size: 1em;
 }
 
 .heading{
@@ -39,6 +52,11 @@ a{
 
 .logo{
     text-align: center;
+    /* padding-left: 5em; */
+}
+
+.cart-button{
+    text-align: right;
 }
 
 .grey-line{
@@ -56,23 +74,41 @@ a{
     color: rgb(243, 245, 247);
 }
 
+.toggle-button{
+    /* height: 2vh; */
+    background-color: black;
+    width: 1em;
+    color: white;
+    /* padding: 0 0 0 0.1em; */
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .searchbox{
     width: 100%;
     padding: 0.50em 0.50em;
-    border-radius: 2px;
-    border: 0px solid;
-    background-color: rgb(100, 100, 100);
+    border-radius: 0.2em;
+    border: 0 solid;
+    background-color: rgb(48, 46, 46);
     background-image: url('/img/search.svg');
     background-repeat: no-repeat;
     background-position: 0.50em;
     color: #fff;
-    padding-left: 25px;
+    padding-left: 1.875em;
 }
+.searchbox::placeholder {
+    color: white;
+}
+
+/* .menus{
+    display: none;
+} */
 
 .iphone11pro{
     background-image: url("/img/iphone11pro.jpg");
     background-size: cover;
     background-position: center center;
+    padding: 1em;
     text-align: center;
     color: aliceblue;
     height: 30em;
